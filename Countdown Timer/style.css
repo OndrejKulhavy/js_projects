@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Source Serif Pro', serif;
+}
+body{
+    font-family: 'Source Serif Pro', serif;
+    margin: 0;
+    background-image: url(landscape.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
