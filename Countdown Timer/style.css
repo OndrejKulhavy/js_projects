@@ -1,15 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
 
 *{
     box-sizing: border-box;
-    font-family: 'Source Serif Pro', serif;
 }
 body{
-    font-family: 'Source Serif Pro', serif;
+    color: white;
+    font-family: 'Silkscreen', cursive;
     margin: 0;
-    background-image: url(landscape.jpg);
+    background:linear-gradient(0deg, rgba(0, 121, 34, 0.4), rgba(0, 0, 0, 0.4)), url(landscape.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10rem;
+}
+
+.countdown-container{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-el {
+    text-align: center;
+}
+.countdown-el span {
+    font-size: 1.2rem;
 }
